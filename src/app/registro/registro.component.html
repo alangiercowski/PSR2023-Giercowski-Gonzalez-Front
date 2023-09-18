@@ -1,5 +1,6 @@
-<body>
-    <button id="btn-menu" routerLink="/inicio">Volver</button>
+ <app-navbar></app-navbar>
+ <body>
+   
     <div class="register-container">
         <div class="register">
             <p id="title">Registro</p>
@@ -11,7 +12,6 @@
             <input #direccion id="direccion" placeholder="Direccion">
             <button (click)="registro(mail.value, password.value, name.value, direccion.value)" id="btn">Registrarse</button>
             <p style="color: red;">{{error}}</p>
-            <a id="link" routerLink="/login">¿Ya tenés cuenta?</a>
         </div>
         
     </div>

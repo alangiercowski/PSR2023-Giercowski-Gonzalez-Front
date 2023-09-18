@@ -7,13 +7,15 @@ import { LoginComponent } from './login/login.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { MihttpService } from './mihttp.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistroComponent,
     LoginComponent,
-    InicioComponent
+    InicioComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
