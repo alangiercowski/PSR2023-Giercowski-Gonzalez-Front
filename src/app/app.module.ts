@@ -8,6 +8,9 @@ import { InicioComponent } from './inicio/inicio.component';
 import { MihttpService } from './mihttp.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AdopcionComponent } from './adopcion/adopcion.component';
+import { MercadoComponent } from './mercado/mercado.component';
+import { ExtravioComponent } from './extravio/extravio.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     RegistroComponent,
     LoginComponent,
     InicioComponent,
-    NavbarComponent
+    NavbarComponent,
+    AdopcionComponent,
+    MercadoComponent,
+    ExtravioComponent
   ],
   imports: [
     BrowserModule,

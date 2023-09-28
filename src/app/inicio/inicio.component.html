@@ -1,11 +1,9 @@
-<div class="nav">
-    <input type="checkbox" id="nav-check">
+<body class="cuerpo">
+  <div class="nav">
     <div class="nav-header">
-        <img class="perro" src="../../assets/perro.jpg">
-      <div class="nav-title">
-        PetMatch
-      </div>
-      
+      <img class="perro" src="../../assets/perro.jpg">
+      <div class="nav-title">PetMatch</div>
+
     </div>
     <div class="nav-btn">
       <label for="nav-check">
@@ -14,9 +12,40 @@
         <span></span>
       </label>
     </div>
-    
+
     <div class="nav-links">
       <a routerLink="/registro">Registrarse</a>
-      <a routerLink="/login">Iniciar sesión</a> 
+      <a routerLink="/login">Iniciar sesión</a>
     </div>
   </div>
+
+  <div class="opcionesMenu">
+    <div class="opcionMenu">
+      <div class="contenedorImagen">
+        <a routerLink="/adopcion">
+          <img src="../../assets/perro.jpg" alt="imagen adopcion" class="imagenOpcion">
+        </a>
+      </div>
+      <p class="titulOpcion">Adoptá</p>
+      <p class="descripcionOpcion">Encontrá tu mascota ideal</p>
+    </div>
+    <div class="opcionMenu">
+      <div class="contenedorImagen">
+        <a routerLink="/mercado">
+          <img src="../../assets/pata.jpg" alt="imagen adopcion" class="imagenOpcion">
+        </a>
+      </div>
+      <p class="titulOpcion">Comprá y vendé</p>
+      <p class="descripcionOpcion">Participá del mercado comunitario</p>
+    </div>
+    <div class="opcionMenu">
+      <div class="contenedorImagen">
+        <a routerLink="/extravio">
+          <img src="../../assets/perro.jpg" alt="imagen adopcion" class="imagenOpcion">
+        </a>
+      </div>
+      <p class="titulOpcion">Ayudá</p>
+      <p class="descripcionOpcion">Buscá mascotas perdidas cerca tuyo</p>
+    </div>
+  </div>
+</body>
